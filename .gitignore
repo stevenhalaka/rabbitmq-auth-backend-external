@@ -1,0 +1,6 @@
+*~
+ebin/*.beam
+ebin/rabbitmq_auth_backend_external.app
+build
+dist
+*.pyc

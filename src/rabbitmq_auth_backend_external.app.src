@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, rabbitmq_auth_backend_external,
+ [{description, "RabbitMQ auto-authorize plugin (only useful w/External SASL + SSL"},
+  {vsn, "%%VSN%%"},
+  {modules, [rabbit_auth_backend_external_app]},
+  {registered, []},
+  {mod, {rabbit_auth_backend_external_app, []}},
+  {env, []},
+  {applications, [kernel, stdlib]}]}.
